@@ -1,4 +1,4 @@
-ask_user_answers = {'Как дела?': 'Хорошо', 'Что делаешь? ': 'Программирую', 'Видел новый выпуск Малышевой? ': 'Нет', 'Будешь? ': 'Буду'}
+ask_user_answers = {'Как дела?': 'Хорошо', 'Что делаешь?': 'Программирую', 'Видел новый выпуск Малышевой?': 'Нет', 'Будешь?': 'Буду'}
 
 
 def ask_user():
@@ -13,8 +13,8 @@ def ask_user_dict():
             
         question = input('Задай вопрос: ')
         if question in ask_user_answers:
-            a = ask_user_answers.get(question)
-            print(a)
+            user_answer = ask_user_answers.get(question)
+            print(user_answer)
         else:
             print('Ответа нет')
             return
