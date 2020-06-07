@@ -1,6 +1,6 @@
 
 def comparison(string_one, string_two):
-    if string_one == str(string_one) and string_two == str(string_two):    
+    if isinstance(string_one, str) and isinstance(string_two, str):    
         if string_one == string_two:
             return 1
         else:

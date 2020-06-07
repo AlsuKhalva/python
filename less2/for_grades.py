@@ -7,9 +7,9 @@ scores_sum = 0
 for grade in grades_at_school:
     a = sum(grade['scores'])/len(grade['scores'])
     print(a)
-    grade = sum(grade['scores'])
-    #print(grade)
-    scores_sum += grade
+    grades_sum = sum(grade['scores'])
+    #print(grades_sum)
+    scores_sum += grades_sum
 
 print(scores_sum/len(grades_at_school))
 

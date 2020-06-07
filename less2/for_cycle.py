@@ -1,8 +1,8 @@
 cycle_list = [2, 4, 6, 8, 10, 1, 3, 5, 7, 9]
 
-for cycle in cycle_list:
-    cycle +=1
-    print(cycle)
+for number in cycle_list:
+    number +=1
+    print(number)
 
 
 

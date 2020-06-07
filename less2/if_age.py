@@ -1,7 +1,5 @@
-age = input('Сколько Вам лет? ')
-age = float(age) 
 
-def how_old():
+def how_old(age):
     if age <= 6:
         return 'Посещает детский сад'
     elif 6 < age <= 17:
@@ -11,5 +9,8 @@ def how_old():
     else:
         return 'Работает на работе работником'
 
-what_are_you_doing = how_old()
+age = input('Сколько Вам лет? ')
+age = float(age) 
+
+what_are_you_doing = how_old(age)
 print(what_are_you_doing)
